@@ -1,0 +1,312 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f9fa;
+    width: 100%;
+
+
+}
+
+
+.other-box {
+    display: flex;
+}
+
+@media screen and (min-width: 601px) {
+
+    /* for max width */
+    .dash {
+        font-size: 2rem;
+        margin-left: .5rem;
+
+    }
+
+    .dash-logo {
+        font-size: 2rem;
+        margin-top: .3rem;
+        margin-left: .5rem;
+    }
+
+    .dash-items-logo {
+        font-size: 2rem;
+        color: white;
+        display: flex;
+
+    }
+
+    .dash-items-text {
+        color: white;
+        margin-top: -2rem;
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+
+    .btn-class {
+        display: flex;
+
+    }
+
+    .arrow {
+        color: white;
+        margin-top: -5.5rem;
+        font-size: 1.2rem;
+        margin-left: 10rem;
+    }
+
+
+    .arrow2 {
+        margin-left: 10rem;
+    }
+
+    .arrow4 {
+        margin-left: 9.8rem;
+    }
+
+    .arrow5 {
+        margin-left: 10rem;
+    }
+
+    .arrow6 {
+        margin-left: 9.6rem;
+    }
+
+    .box-pair {
+        flex-direction: row;
+        height: 10rem;
+        margin-top: 5rem;
+        margin-left: 2rem;
+    }
+
+    .box {
+        flex: 1;
+        width: 15rem;
+        /* height: 10px; */
+        border-radius: 7%;
+        /* background-color: white; */
+
+    }
+
+    .box-icon {
+        font-size: 5rem;
+        margin-right: 7rem;
+        margin-top: -5rem;
+
+    }
+
+    .boxhead {
+        font-size: 1rem;
+        margin-left: 4rem;
+        /* margin-top: 1rem; */
+    }
+
+    .earn {
+        font-size: 1.5rem;
+        font-weight: bold;
+
+    }
+
+    .big-box {
+        width: 45rem;
+        /* background-color: #040440; */
+        background-color: white;
+        border-radius: 1rem;
+        margin: 2rem;
+        height: 25rem;
+        margin-top: -15rem;
+    }
+
+    .small-box {
+        width: 25rem;
+        border-radius: 1rem;
+        background-color: white;
+
+        /* background-color: red; */
+        height: 25rem;
+        margin-top: -15rem;
+    }
+
+    .other-box {
+        display: flex;
+    }
+
+    .heading {
+        width: 50rem;
+    }
+
+    .bttable {
+        margin-top: -15rem;
+    }
+
+    .img {
+        height: 3rem;
+        width: 6rem;
+
+    }
+
+    .sideb {
+        position: fixed;
+    }
+
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .dash {
+        font-size: 1%;
+    }
+
+    .dash-logo {
+        font-size: 3rem;
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .dash-items-logo {
+        font-size: 2.2rem;
+        /* margin-top: 0.5rem; */
+        margin-left: 0.5rem;
+        margin-right: 1rem;
+        color: white;
+    }
+
+    .dash-items-text {
+        color: white;
+        font-size: 10px;
+        /* margin-left: -0.6px; */
+        margin-bottom: -1.5rem;
+
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
+    .arrow {
+        font-size: 1%;
+    }
+
+    .btn-class {
+        width: 4rem;
+    }
+
+    .box-pair {
+        flex-direction: column;
+        height: 17rem;
+        margin-top: 5rem;
+        margin-left: 7px;
+    }
+
+    .box {
+        flex: 1;
+        width: 8rem;
+        /* height: 10px; */
+        border-radius: 10%;
+    }
+
+    .box-icon {
+        font-size: 3rem;
+        /* margin-right: 5%; */
+        /* margin-top: 1.5rem; */
+
+    }
+
+    .boxhead {
+        font-size: 0.7rem;
+        /* margin-left: 2rem; */
+        /* margin-top: 1rem; */
+    }
+
+    .earn {
+        font-size: 1rem;
+        font-weight: bold;
+
+    }
+
+    .big-box {
+        width: 18rem;
+        background-color: white;
+        /* border-style: solid; */
+        border-radius: 1rem;
+        margin: 1rem;
+        height: 10rem;
+        margin-top: 5rem;
+    }
+
+    .small-box {
+        width: 15rem;
+        background-color: white;
+        border-radius: 1rem;
+        margin: 1rem;
+        height: 1rem;
+        margin-left: 2.5rem;
+        margin-top: 15rem;
+    }
+
+    .other-box {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .bttable {
+        margin-top: 30rem;
+        /* width: 10rem; */
+    }
+
+    .footer-box {
+        width: 8rem;
+    }
+
+    .img {
+        height: 2rem;
+        width: 4rem;
+
+    }
+
+
+
+}
+
+.main-content {
+    background-color: #040440;
+    height: 80rem;
+    width: 20%;
+    margin-left: -8.7%;
+
+
+    ;
+
+}
+
+.responsive-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-pair {
+    display: flex;
+    flex: 1;
+}
+
+.box {
+    flex: 1;
+    /* border-style: solid; */
+    /* border-color: rgb(136, 130, 130); */
+    background-color: white;
+    /* color: #fff; */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* 
+
+*/
+.fixed {
+    /* flex: 1 1 0; */
+    position: absolute;
+    width: 79%;
+
+    /* background-color: rgb(99, 99, 151); */
+}
